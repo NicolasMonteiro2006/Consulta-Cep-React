@@ -72,11 +72,9 @@ Durante o desenvolvimento deste projeto, encontrei algumas dificuldades que fora
 
 1. **Integração entre frontend e backend**:
    - Inicialmente, tive dificuldades para configurar o backend (API) e fazer a comunicação com o frontend usando `fetch()`.
-   - A solução foi revisar a documentação do **CORS** e garantir que a configuração no servidor estivesse correta para permitir as requisições.
 
 2. **Validação do CEP**:
    - O desafio foi garantir que os CEPs inseridos no frontend fossem validados corretamente antes de serem enviados para o backend.
-   - A solução foi implementar uma função no frontend para verificar o formato do CEP antes de realizar a consulta.
 
 3. **Armazenamento dos dados localmente**:
    - O armazenamento dos dados de CEP no backend foi inicialmente um desafio, principalmente no que diz respeito ao uso do **JSON Server** e à persistência dos dados.
@@ -84,7 +82,6 @@ Durante o desenvolvimento deste projeto, encontrei algumas dificuldades que fora
 
 4. **Exibição de erros**:
    - Durante as requisições de CEP, os erros não estavam sendo exibidos de forma clara no frontend.
-   - A solução foi tratar as respostas de erro e implementar mensagens de feedback visual para o usuário.
 
 ## 📄 Licença
 
