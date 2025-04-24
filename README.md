@@ -20,7 +20,6 @@ A API de consulta de CEP é consumida por meio de um servidor local (Node.js) qu
 
 Clone o repositório para a sua máquina local:
 
-```bash
 git clone https://github.com/seu-usuario/consulta-cep.git
 cd consulta-cep
 
@@ -28,13 +27,11 @@ cd consulta-cep
 
 Primeiro, instale as dependências do **backend**:
 
-```bash
 cd backend
 npm install
 
 Depois, instale as dependências do **frontend**:
 
-```bash
 cd ../
 npm install
 
@@ -42,13 +39,11 @@ npm install
 
 Inicie o servidor local do **backend** (API):
 
-```bash
 cd backend
 npm start
 
 E depois, inicie o servidor de desenvolvimento do **React**:
 
-```bash
 cd ..
 npm start
 
