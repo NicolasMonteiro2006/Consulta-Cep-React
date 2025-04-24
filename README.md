@@ -48,7 +48,7 @@ cd backend
 npm start
 ```
 
-E depois, inicie o servidor de desenvolvimento do **React**:
+E depois, inicie o servidor do **React**:
 
 ```bash
 cd ..
