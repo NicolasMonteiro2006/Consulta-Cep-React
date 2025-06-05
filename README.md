@@ -20,7 +20,7 @@ A API de consulta de CEP é consumida por meio de um servidor local (Node.js) qu
 
 Clone o repositório para a sua máquina local:
 ```bash
-git clone https://github.com/seu-usuario/consulta-cep.git
+git clone [https://github.com/NicolasMonteiro2006/Consulta-Cep-React.git](https://github.com/NicolasMonteiro2006/Consulta-Cep-React.git)
 cd consulta-cep
 ```
 
