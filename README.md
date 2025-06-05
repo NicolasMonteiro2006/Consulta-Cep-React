@@ -35,7 +35,7 @@ npm install
 Depois, instale as dependências do **frontend**:
 
 ```bash
-cd ../
+cd atividade-cep-promice
 npm install
 ```
 
@@ -48,15 +48,22 @@ cd backend
 npm start
 ```
 
-E depois, inicie o servidor do **React**:
+Apos isso, inicie o servidor do **React**:
 
 ```bash
-cd ..
+cd atividade-cep-promice
 npm start
 ```
 
-Agora você pode acessar a aplicação no navegador através de [http://localhost:3000](http://localhost:3000).
+Por fim, inicie o servidor do **Banco Local**
 
+```bash
+cd atividade-cep-promice/data
+npm install -g json-server
+json-server --watch db.json --port 5000
+```
+
+Agora você pode acessar a aplicação no navegador através de [http://localhost:3000](http://localhost:3000).
 
 ## 🤝 Contribuindo
 
